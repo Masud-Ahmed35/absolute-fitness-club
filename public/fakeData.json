@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "name": "Treadmill",
+    "description": "A large wheel turned by the weight of people or animals treading on steps fitted into its inner surface, formerly used to drive machinery.",
+    "age": "20-35",
+    "img": "https://img.freepik.com/free-photo/side-view-man-with-medical-mask-treadmill-gym_23-2148769915.jpg?w=360&t=st=1664393875~exp=1664394475~hmac=4de2cc342855fe84835653eabfa7c5cc93786a7305fce34bf429a138aa1a719a",
+    "time": 60
+  },
+  {
+    "id": 2,
+    "name": "Spin Bike",
+    "description": "A  special stationary exercise bicycle with a weighted flywheel in a classroom setting.",
+    "age": "18-30",
+    "img": "https://img.freepik.com/free-photo/bearded-man-using-spin-bike-physiotherapy-room_1157-38149.jpg?w=996&t=st=1664393846~exp=1664394446~hmac=cfc5060841857e70c7b6f5a44785494fec7ef5de1c592ed5d28b6a2c3106e9d4",
+    "time": 50
+  },
+  {
+    "id": 3,
+    "name": "Chest Press Machine",
+    "description": "The Chest Press Machine targets your upper-body. Specifically, it allows you to work on your pectorals, triceps, and deltoid muscles.",
+    "age": "25-30",
+    "img": "https://img.freepik.com/free-photo/side-view-portrait-young-handsome-man-sportswear-sitting-doing-machine-chest-press-exercise-modern-gym_1150-47198.jpg?w=360&t=st=1664393817~exp=1664394417~hmac=f06aae2fea00b364a65935cac51f01f07669dbf8b6a113a3a7b2d0d2cea04a1b",
+    "time": 30
+  },
+  {
+    "id": 4,
+    "name": "Dumbbells",
+    "description": "A short bar with a weight at each end, used typically in pairs for exercise or muscle-building.",
+    "age": "20-30",
+    "img": "https://img.freepik.com/free-photo/young-sportsman-getting-ready-his-training-isolated_273609-36448.jpg?w=996&t=st=1664393791~exp=1664394391~hmac=a45671456eba424a9b3c76873a30132b14836a722ce6abdbefa8b4358624608d",
+    "time": 45
+  },
+  {
+    "id": 5,
+    "name": "Calf Raise Machine",
+    "description": "A seated calf raise is one of the two most common ways that you will see gym goers training their calves in the gym.",
+    "age": "20-30",
+    "img": "https://cdn.muscleandstrength.com/sites/default/files/seated-calf-raise-1.jpg",
+    "time": 30
+  },
+  {
+    "id": 6,
+    "name": "Adjustable Weight Bench",
+    "description": "",
+    "age": "20-25",
+    "img": "https://i.ebayimg.com/images/g/Xp4AAOSw2KVfyTmp/s-l500.jpg",
+    "time": 30
+  },
+  {
+    "id": 7,
+    "name": "Battle Ropes",
+    "description": "Battling ropes (also known as battle ropes or heavy ropes) are used for fitness training to increase full body strength and conditioning.",
+    "age": "20-25",
+    "img": "https://img.freepik.com/free-photo/athlete-with-disabilities-amputee-isolated-blue-wall_155003-37066.jpg?w=996&t=st=1664393755~exp=1664394355~hmac=17d5ad3ccc18f1594ca092060825fb396be98726df2dd7f906296b225184335e",
+    "time": 45
+  },
+  {
+    "id": 8,
+    "name": "Hammer Strength Machine",
+    "description": "Hammer's machines use free weight plates rather than stacked weights, basically hybridizing a free weight and machine workout.",
+    "age": "20-25",
+    "img": "https://i0.wp.com/fitnessator.com/wp-content/uploads/man-how-chest-press.jpg?resize=730%2C450&ssl=1",
+    "time": 45
+  },
+  {
+    "id": 9,
+    "name": "Jump Ropes",
+    "description": "A length of rope used for jumping by swinging it over the head and under the feet; a skipping rope.",
+    "age": "20-25",
+    "img": "https://img.freepik.com/free-photo/young-attractive-woman-doing-sport-exercises-morning-sunrise-sea-beach-sports-wear-healthy-lifestyle-listening-music-earphones-wearing-pink-windbreaker-jacket-jumping-jump-rope_285396-5593.jpg?w=996&t=st=1664393661~exp=1664394261~hmac=93ad9b59a24dfbf06473672a2a45a23edb8fbad2b5105363c7c6709f7085ebd4",
+    "time": 60
+  },
+  {
+    "id": 10,
+    "name": "Pulldown Machine",
+    "description": "The lat pull-down is an exercise you can do with a weight machine to work the muscles on the sides of your chest wall and upper back.",
+    "age": "20-35",
+    "img": "https://img.freepik.com/free-photo/black-man-exercising-lat-pull-down-machine_1262-16019.jpg?w=996&t=st=1664393977~exp=1664394577~hmac=4168a112cd4d5be90fbca44564e4feb71c05c34e1241e2c19b116e8fcc369a77",
+    "time": 60
+  },
+  {
+    "id": 11,
+    "name": "Leg Press Machine",
+    "description": "The leg press is a compound weight training exercise in which the individual pushes a weight or resistance away from them using their legs.",
+    "age": "20-30",
+    "img": "https://img.freepik.com/free-photo/man-exercising-leg-press-machine_329181-14136.jpg?w=996&t=st=1664394219~exp=1664394819~hmac=5e4c6bc4321549b89b125887e67ecc9750070754b1b008a28f0c7687ab930da2",
+    "time": 30
+  },
+  {
+    "id": 12,
+    "name": "Pec Deck Machine",
+    "description": "A pec deck is a machine designed to increase strength and muscle mass in the chest.",
+    "age": "22-32",
+    "img": "https://muscledfitness.com/wp-content/uploads/2015/03/MDD-1003-Pec-Deck_2.jpg",
+    "time": 25
+  },
+  {
+    "id": 13,
+    "name": "Preacher Curl Bench",
+    "description": "",
+    "age": "20-35",
+    "img": "https://i.pinimg.com/736x/4b/54/b5/4b54b5ca478061ef89bbf70e3f4b62d8--upper-body-curls.jpg",
+    "time": 40
+  },
+  {
+    "id": 14,
+    "name": "Push-Up Bars",
+    "description": "A push-up bar is a tool, made from steel or hardened plastic that helps a person's arms remain in a more comfortable position during push-up exercises.",
+    "age": "18-32",
+    "img": "https://img.freepik.com/free-photo/young-fit-sportsman-doing-push-ups-with-bars_171337-11660.jpg?w=996&t=st=1664394700~exp=1664395300~hmac=eb699714b55a68777effd733c5ec75ff441d0290b9bbc9aad7842311db85b032",
+    "time": 15
+  },
+  {
+    "id": 15,
+    "name": "Roman Chair",
+    "description": "An exercise more commonly referred to as the wall sit, an isometric movement to build strength in the quadriceps.",
+    "age": "20-35",
+    "img": "https://i5.walmartimages.com/asr/a30e8133-85e7-4c92-b7cc-c0a92b27fa91.d1b5c3d7ffa34e2e683aade1b2848d5b.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+    "time": 30
+  },
+  {
+    "id": 16,
+    "name": "Smith Machine",
+    "description": "The Smith machine is a weight machine used for weight training. It consists of a barbell that is fixed within steel rails allowing only vertical or near-vertical movement. Some Smith machines have the barbell counterbalanced.",
+    "age": "20-25",
+    "img": "https://m.media-amazon.com/images/I/71Rk7mf3scL._AC_SX425_.jpg",
+    "time": 30
+  },
+  {
+    "id": 17,
+    "name": "Weight Plates",
+    "description": "A weight plate is a flat, heavy object, usually made of cast iron, that is used in combination with barbells or dumbbells to produce a bar with a desired total weight for the purpose of physical exercise.",
+    "age": "25-32",
+    "img": "https://images.wisegeek.com/man-powerlifting.jpg",
+    "time": 10
+  }
+]
