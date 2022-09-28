@@ -42,7 +42,7 @@
   {
     "id": 6,
     "name": "Adjustable Weight Bench",
-    "description": "",
+    "description": "A multi-functional bench for specific training activities using barbells, dumbbells and small accessories, as well as for bodyweight exercises.",
     "age": "20-25",
     "img": "https://i.ebayimg.com/images/g/Xp4AAOSw2KVfyTmp/s-l500.jpg",
     "time": 30
@@ -98,7 +98,7 @@
   {
     "id": 13,
     "name": "Preacher Curl Bench",
-    "description": "",
+    "description": "The preacher bench is designed so you sit with your upper arms resting on a slanted surface that slopes down away from you.",
     "age": "20-35",
     "img": "https://i.pinimg.com/736x/4b/54/b5/4b54b5ca478061ef89bbf70e3f4b62d8--upper-body-curls.jpg",
     "time": 40
@@ -122,7 +122,7 @@
   {
     "id": 16,
     "name": "Smith Machine",
-    "description": "The Smith machine is a weight machine used for weight training. It consists of a barbell that is fixed within steel rails allowing only vertical or near-vertical movement. Some Smith machines have the barbell counterbalanced.",
+    "description": "The Smith machine is a weight machine used for weight training. It consists of a barbell that is fixed within steel rails allowing only vertical or near-vertical movement.",
     "age": "20-25",
     "img": "https://m.media-amazon.com/images/I/71Rk7mf3scL._AC_SX425_.jpg",
     "time": 30
@@ -130,7 +130,7 @@
   {
     "id": 17,
     "name": "Weight Plates",
-    "description": "A weight plate is a flat, heavy object, usually made of cast iron, that is used in combination with barbells or dumbbells to produce a bar with a desired total weight for the purpose of physical exercise.",
+    "description": "A weight plate is a flat, heavy object, usually made of cast iron, that is used in combination with barbells or dumbbells to produce a bar with a desired total weight.",
     "age": "25-32",
     "img": "https://images.wisegeek.com/man-powerlifting.jpg",
     "time": 10
