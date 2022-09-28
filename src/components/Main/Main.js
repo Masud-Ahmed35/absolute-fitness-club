@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Info from '../../Info/Info';
 import Card from '../Card/Card';
 import Header from '../Header/Header';
 
@@ -31,8 +32,9 @@ const Main = () => {
                     </div>
                 </div>
             </div>
-            <div>
-                <h1>This is Info</h1>
+            {/* ---------Info and Activities Section ------------ */}
+            <div className='bg-stone-100'>
+                <Info></Info>
             </div>
         </div>
     );
