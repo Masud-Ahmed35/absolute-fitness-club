@@ -1,3 +1,5 @@
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import profilePic from '../images/profilePic.jpg'
 
@@ -8,7 +10,8 @@ const PersonalInfo = () => {
                 <img className='w-20 rounded-box mr-4' src={profilePic} alt="" />
                 <div>
                     <h2 className='text-2xl font-semibold'>Professor M</h2>
-                    <p className='text-gray-400'>Dhaka, Bangladesh</p>
+                    <FontAwesomeIcon icon={faLocationDot}></FontAwesomeIcon>
+                    <span className='text-gray-400 ml-2'>Dhaka, Bangladesh</span>
                 </div>
             </div>
             <div className='flex justify-evenly mt-7 bg-stone-200 p-2 rounded-xl'>
