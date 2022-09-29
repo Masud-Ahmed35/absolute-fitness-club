@@ -9,7 +9,7 @@ const PersonalInfo = () => {
             <div className='flex align-middle'>
                 <img className='w-20 rounded-box mr-4' src={profilePic} alt="" />
                 <div>
-                    <h2 className='text-2xl font-semibold'>Professor M</h2>
+                    <h2 className='text-2xl font-semibold'>Md. Masud Ahmed</h2>
                     <FontAwesomeIcon icon={faLocationDot}></FontAwesomeIcon>
                     <span className='text-gray-400 ml-2'>Dhaka, Bangladesh</span>
                 </div>

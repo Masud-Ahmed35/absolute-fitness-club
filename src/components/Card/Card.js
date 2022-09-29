@@ -1,7 +1,6 @@
 import React from 'react';
 
 const Card = ({ data, handleTime }) => {
-    console.log(data);
     const { age, description, img, name, time } = data;
 
     return (

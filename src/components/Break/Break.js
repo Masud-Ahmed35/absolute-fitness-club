@@ -1,15 +1,15 @@
 import React from 'react';
 
-const Break = () => {
+const Break = ({ breakTime }) => {
     return (
         <div className='mt-7'>
             <h2 className='text-xl font-semibold'>Add a Break</h2>
             <div className='bg-stone-200 mt-3 p-2 flex  justify-between rounded-lg'>
-                <button className="btn btn-outline btn-secondary rounded-full">10s</button>
-                <button className="btn btn-outline btn-secondary rounded-full">20s</button>
-                <button className="btn btn-outline btn-secondary rounded-full">30s</button>
-                <button className="btn btn-outline btn-secondary rounded-full">40s</button>
-                <button className="btn btn-outline btn-secondary rounded-full">50s</button>
+                <button onClick={() => breakTime(10)} className="btn btn-outline btn-secondary rounded-full">10s</button>
+                <button onClick={() => breakTime(20)} className="btn btn-outline btn-secondary rounded-full">20s</button>
+                <button onClick={() => breakTime(30)} className="btn btn-outline btn-secondary rounded-full">30s</button>
+                <button onClick={() => breakTime(40)} className="btn btn-outline btn-secondary rounded-full">40s</button>
+                <button onClick={() => breakTime(50)} className="btn btn-outline btn-secondary rounded-full">50s</button>
             </div>
         </div>
     );
