@@ -9,7 +9,7 @@ const Info = ({ exerciseTime }) => {
     const breakTime = time => {
         setRestTime(time);
         localStorage.setItem('breakTime', restTime);
-        const localStorageData = localStorage.getItem('breakTime')
+        // const localStorageData = localStorage.getItem('breakTime')
 
     }
 
