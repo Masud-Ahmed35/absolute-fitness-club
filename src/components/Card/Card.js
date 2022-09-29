@@ -5,7 +5,7 @@ const Card = ({ data, handleTime }) => {
 
     return (
         <div>
-            <div className="card h-[570px] bg-base-100 shadow-xl border-2">
+            <div className="card h-[570px] bg-base-100 shadow-xl border-2" data-aos="zoom-in">
                 <figure><img className='rounded-lg shadow-2xl w-72 h-60 mt-3' src={img} alt="Shoes" /></figure>
                 <div className="card-body">
                     <h2 className="card-title font-bold">{name}</h2>

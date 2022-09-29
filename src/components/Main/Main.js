@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import Info from '../../Info/Info';
 import Card from '../Card/Card';
 import Header from '../Header/Header';
+import Swal from 'sweetalert2'
 
 const Main = () => {
     const [datas, setDatas] = useState([]);
@@ -17,18 +18,26 @@ const Main = () => {
 
     const handleTime = time => {
         setExerciseTime(current => current + time);
+
+        Swal.fire({
+            position: 'top',
+            icon: 'success',
+            title: 'Added Successfully!!!',
+            showConfirmButton: false,
+            timer: 1500
+        })
     }
 
     return (
         <div className='main-container grid grid-cols-1 lg:grid-cols-4'>
-            <div className='col-span-3'>
+            <div className='col-span-3 border-x-2 mr-5'>
                 <div>
                     <Header></Header>
                 </div>
                 {/* ----------Card Group----------  */}
                 <div className='mx-10 mt-10'>
                     <h2 className='mb-7 text-2xl font-bold shadow-xl pb-4 rounded-lg text-center'>Select today's exercise</h2>
-                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
+                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
                         {
                             datas.map(data => <Card
                                 data={data}

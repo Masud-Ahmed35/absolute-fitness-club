@@ -1,6 +1,10 @@
 import React from 'react';
+import { ToastContainer, toast } from 'react-toastify';
 
 const ExerciseDetails = ({ exerciseTime, restTime }) => {
+
+    const notify = () => toast("WoW Activity Completed Successfully!!!");
+
     return (
         <div className='mt-10'>
             <h2 className='text-xl font-semibold mb-3'>Exercise Details</h2>
@@ -12,8 +16,8 @@ const ExerciseDetails = ({ exerciseTime, restTime }) => {
                 <p>Break time:</p>
                 <p className='text-gray-500'>{restTime} seconds</p>
             </div>
-            <button className="btn btn-success w-full mt-10 text-lg font-semibold text-white">Activity Completed</button>
-
+            <button onClick={notify} className="btn btn-success w-full mt-10 text-lg font-semibold text-white">Activity Completed</button>
+            <ToastContainer></ToastContainer>
         </div>
     );
 };
