@@ -17,7 +17,19 @@ const Header = () => {
                 </div>
                 <div>
                     <button className="block lg:hidden btn btn-square btn-ghost mr-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-5 h-5 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                        <div className="dropdown dropdown-end">
+                            <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
+                                <div className="w-10 rounded-full">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-5 h-5 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                                </div>
+                            </label>
+                            <ul tabIndex={0} className="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52">
+                                <li><a href='/'>Home</a></li>
+                                <li><a href='/'>Catagories</a></li>
+                                <li><a href='/'>Blog</a></li>
+                                <li><a href='/'>About</a></li>
+                            </ul>
+                        </div>
                     </button>
                 </div>
             </div>
