@@ -10,10 +10,10 @@ const Header = () => {
                     <a href='/' className="border-y-0 border-black btn btn-ghost normal-case font-serif text-3xl font-extrabold">Absolute Fitness</a>
                 </div>
                 <div className=' text-xl font-medium hidden lg:block'>
-                    <a href="/">Home</a>
-                    <a className='ml-7' href="/">Catagories</a>
-                    <a className='ml-7' href="/">Blog</a>
-                    <a className='ml-7' href="/">About</a>
+                    <a className='border-b-4 rounded-lg' href="/">Home</a>
+                    <a className='ml-7 border-b-4 rounded-lg' href="/">Catagories</a>
+                    <a className='ml-7 border-b-4 rounded-lg' href="/">Blog</a>
+                    <a className='ml-7 border-b-4 rounded-lg' href="/">About</a>
                 </div>
                 <div>
                     <button className="block lg:hidden btn btn-square btn-ghost mr-3">

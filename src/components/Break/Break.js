@@ -2,8 +2,8 @@ import React from 'react';
 
 const Break = ({ breakTime }) => {
     return (
-        <div className='mt-7'>
-            <h2 className='text-xl font-semibold'>Add a Break</h2>
+        <div className='mt-9'>
+            <h2 className='text-xl font-semibold mb-4'>Add a Break</h2>
             <div className='bg-stone-200 mt-3 p-2 flex  justify-evenly rounded-lg'>
                 <button onClick={() => {
                     breakTime(10);

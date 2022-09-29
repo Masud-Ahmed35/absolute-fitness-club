@@ -6,8 +6,8 @@ const ExerciseDetails = ({ exerciseTime, restTime }) => {
     const notify = () => toast("WoW Activity Completed Successfully!!!");
 
     return (
-        <div className='mt-10'>
-            <h2 className='text-xl font-semibold mb-3'>Exercise Details</h2>
+        <div className='mt-11'>
+            <h2 className='text-xl font-semibold mb-4'>Exercise Details</h2>
             <div className='bg-stone-200 flex justify-between px-8 py-3 text-xl font-medium rounded-lg'>
                 <p>Exercise time:</p>
                 <p className='text-gray-500'>{exerciseTime} seconds</p>
